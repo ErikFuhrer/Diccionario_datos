@@ -1,6 +1,6 @@
 # Diccionario de Datos MySQL con Interfaz Gráfica
 
-Este proyecto es una herramienta de escritorio desarrollada en Python con `tkinter` que permite conectarse a una base de datos MySQL, visualizar su estructura y generar un PDF con el diccionario de datos.
+Este proyecto es una herramienta de escritorio desarrollada en Python con `ttkbootstrap` que permite conectarse a una base de datos MySQL, visualizar su estructura y generar un PDF con el diccionario de datos.
 
 ## 📋 Funcionalidades
 
@@ -19,11 +19,12 @@ Este proyecto es una herramienta de escritorio desarrollada en Python con `tkint
   - `pymysql`
   - `reportlab`
   - `tkinter` (incluido en la mayoría de instalaciones de Python)
+  - `ttkbootstrap`
 
 Puedes instalar los paquetes requeridos con:
 
 ```bash
-pip install pymysql reportlab
+pip install pymysql reportlab ttkbootstrap
 ```
 
 ## 🚀 Cómo usar
@@ -52,7 +53,7 @@ El PDF generado incluye:
 
 ## 🛠️ Estructura del Código
 
-- Interfaz: `tkinter`
+- Interfaz: `ttkbootstrap`
 - Conexión a MySQL: `pymysql`
 - Exportación PDF: `reportlab`
 - Consultas a `INFORMATION_SCHEMA` para obtener metadatos de la base de datos
